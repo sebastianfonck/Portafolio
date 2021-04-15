@@ -1,0 +1,26 @@
+.header {
+    width: 100%;
+    float: left;
+    display: flex;
+    padding: 1rem 0;
+    justify-content: flex-end;
+    height: 2rem;
+    box-shadow: 0 0 15px black;
+}
+
+.section_1 .lista {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.section_1 .lista .item {
+    cursor: pointer;
+    padding: 0 1rem;
+    transition: all ease 200ms;
+}
+
+.section_1 .lista .item:hover {
+    opacity: .6;
+}

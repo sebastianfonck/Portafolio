@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+  --color1: #242426;
+  --color2: #58555A;
+  --color3: #FBF37C;
+}
+
+html, body{
+  margin: 0;
+  background: var(--color2);
+  color: white;
+  font-family: 'IBM Plex Serif', serif;
+}

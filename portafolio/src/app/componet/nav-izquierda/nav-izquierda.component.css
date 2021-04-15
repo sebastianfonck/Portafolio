@@ -1,0 +1,69 @@
+     :root {
+        --Color1: #242426;
+        --Color2: #58555A;
+        --Color3: #FBF37C;
+    }
+    
+    .area {
+        background: #242426;
+        position: absolute;
+        height: 100%;
+        width: 20%;
+    }
+    
+    .area .logo {
+        width: 200px;
+        margin: 20px;
+        left: 20%;
+    }
+    
+    .area .presentacion {
+        display: inline-block;
+    }
+    
+    .presentacion .imagen {
+        display: inline-block;
+        position: relative;
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+    
+    .presentacion img {
+        width: auto;
+        height: 100%;
+        margin-left: -50px;
+    }
+    
+    .presentacion .HabilidadesTecnologicas .linea {
+        height: 10px;
+        width: 50%;
+        background-color: #FBF37C;
+    }
+    
+    .presentacion .HabilidadesTecnologicas .item {
+        background: #58555A;
+        display: inline-block;
+        position: relative;
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+    
+    .presentacion .HabilidadesConceptuales .linea {
+        height: 10px;
+        width: 50%;
+        background-color: #FBF37C;
+    }
+    
+    .presentacion .HabilidadesConceptuales .item {
+        background: #58555A;
+        display: inline-block;
+        position: relative;
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
